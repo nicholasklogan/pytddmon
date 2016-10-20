@@ -1,7 +1,7 @@
 ﻿# coding: utf-8
 import unittest
 
-import pytddmon
+from old import pytddmon
 
 
 class TestStatusBarFeature(unittest.TestCase):

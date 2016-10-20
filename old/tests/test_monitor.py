@@ -1,6 +1,7 @@
 # coding: utf-8
 import unittest
-from pytddmon import Monitor
+
+from old.pytddmon import Monitor
 
 
 class TestChangeDetection(unittest.TestCase):

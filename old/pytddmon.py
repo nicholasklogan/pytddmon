@@ -676,7 +676,7 @@ def run():
 
     # What files to monitor?
     if not static_file_set:
-        regex = ("^[^\\.].*.py")
+        regex = "^[^\\.].*.py"
     else:
         regex = '|'.join(static_file_set)
     file_finder = FileFinder(cwd, regex)

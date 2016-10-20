@@ -11,7 +11,7 @@ import sys
 sys.path.append('..')
 
 import unittest
-from pytddmon import Pytddmon
+from old.pytddmon import Pytddmon
 
 
 class TestPytddmonMonitorCommunication(unittest.TestCase):

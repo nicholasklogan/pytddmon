@@ -1,6 +1,6 @@
 import unittest
 
-from pytddmon import Kata
+from old.pytddmon import Kata
 
 class KataGeneratorTests(unittest.TestCase):
 	def setUp(self):
